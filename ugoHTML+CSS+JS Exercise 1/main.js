@@ -1,3 +1,5 @@
 
-div.style.backgroundImage = 'url("newimage.jpg")';
-div.style.backgroundSize = 'cover';
+function changeBackgroundColor() {
+    let div = document.getElementById('myDiv');
+    div.style.backgroundColor = 'red';
+}
